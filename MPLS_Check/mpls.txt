@@ -1,0 +1,89 @@
+Thang Long,h004_ow_naictttmdvqtbcd73,viettel,222 Trần Duy Hưng - Trung Hoà - Cầu Giấy
+Thang Long,h004_ow_naictttmdvqtbcd70,viettel,222 Trần Duy Hưng - Trung Hoà - Cầu Giấy
+The Garden,h004_ow_naictttmdvqtbcd59,viettel,The Garden - Mễ Trì - Mỹ Đình - Từ Liêm
+The Garden,h004_ow_naictttmdvqtbcd62,viettel,The Garden - Mễ Trì - Mỹ Đình - Từ Liêm
+Long Bien,h004_ow_naictttmdvqtbcd60,viettel,Việt Hưng - Long Biên
+Long Bien,h004_gow_naictttmdvqtbcd7,viettel,Việt Hưng - Long Biên
+Me Linh,h004_ow_naictttmdvqtbcd64,viettel,Võ Văn Kiệt - Quang Minh - Mê Linh
+Me Linh,h004_ow_naictttmdvqtbcd65,viettel,Võ Văn Kiệt - Quang Minh - Mê Linh
+Ha Dong,h004_ow_naictttmdvqtbcd72,viettel,Hồ Gươm Plaza - Trần Phú - P. Mộ Lao - Hà Đông
+Ha Dong,h004_ow_naictttmdvqtbcd71,viettel,Hồ Gươm Plaza - Trần Phú - P. Mộ Lao - Hà Đông
+Le Trong Tan,h004_gow_naictttmdvqtbcd8,viettel,Tòa nhà ARTEMIS - 3 Mặt phố Tôn Thất Tùng - Khương Mai - Thanh Xuân
+Le Trong Tan,h004_ow_naictttmdvqtbcd74,viettel,Tòa nhà ARTEMIS - 3 Mặt phố Tôn Thất Tùng - Khương Mai - Thanh Xuân
+Kho Ha Noi,h004_ow_naictttmdvqtbcd66,viettel,Lô 39E - Khu công nghiệp Quang Minh - quận Mê Linh
+Hai Duong,h320_ow_naictttmdvqtbcd6,viettel,An Định - P. Trần Hưng Đạo - Thành phố Hải Dương
+Hai Duong,h320_ow_naictttmdvqtbcd7,viettel,An Định - P. Trần Hưng Đạo - Thành phố Hải Dương
+Hai Phong,h031_ow_naictttmdvqtbcd4,viettel,Lô 1/20 Lê Hồng Phong - Đằng Lâm - Ngô Quyền
+Hai Phong,h031_ow_naictttmdvqtbcd5,viettel,Lô 1/20 Lê Hồng Phong - Đằng Lâm - Ngô Quyền
+Nam Dinh,n350_ow_naictttmdvqtbcd3,viettel,QL10 - Lộc Hoà - TP. Nam Định - tp. Nam Định
+Ha Long,q033_ow_naictttmdvqtbcd4 ,viettel,600 Nguyễn Văn Cừ - Hồng Hà - Thành phố Hạ Long
+Ha Long,q033_ow_naictttmdvqtbcd6,viettel,600 Nguyễn Văn Cừ - Hồng Hà - Thành phố Hạ Long
+Vinh Phuc,v211_ow_naictttmdvqtbcd5,viettel,2 Quốc lộ 2B - Quất Lưu - Thành phố Vĩnh Yên
+Vinh Phuc,v211_ow_naictttmdvqtbcd7,viettel,2 Quốc lộ 2B - Quất Lưu - Thành phố Vĩnh Yên
+Nam Dinh,n350_ow_naictttmdvqtbcd5,viettel,QL10 - Lộc Hoà - TP. Nam Định - tp. Nam Định
+Ninh Binh,n030_ow_naictttmdvqtbcd4,viettel,Trần Nhân Tông - Ninh Phú
+Ninh Binh,n030_ow_naictttmdvqtbcd5,viettel,Trần Nhân Tông - Ninh Phú
+Thanh Hoa,t037_ow_naictttmdvqtbcd4,viettel,Nguyễn Hoàng - Đông Hà - Thành phố Thanh Hóa
+Thanh Hoa,t037_ow_naictttmdvqtbcd5,viettel,Nguyễn Hoàng - Đông Hà - Thành phố Thanh Hóa
+Viet Tri,p210_ow_naictttmdvqtbcd2,viettel,Nguyễn Tất Thành - Ph. Thanh Miếu - Thành phố Việt Trì
+Viet Tri,p210_ow_naictttmdvqtbcd3,viettel,Nguyễn Tất Thành - Ph. Thanh Miếu - Thành phố Việt Trì
+Bac Giang,b240_ow_naictttmdvqtbcd4,viettel,ĐT293 - Tân Tiến - Yên Dũng
+Bac Giang,b240_ow_naictttmdvqtbcd5,viettel,ĐT293 - Tân Tiến - Yên Dũng
+Da Lat,l063_ow_naictttmdvqtbcd4 ,viettel,Hồ Tùng Mậu - Phường 10 - Thành phố Đà Lạt
+Da Lat,l063_ow_naictttmdvqtbcd5,viettel,Hồ Tùng Mậu - Phường 10 - Thành phố Đà Lạt
+Kho Da Lat,l063_ow_naictttmdvqtbcd6 ,viettel,Quốc lộ 20 - Định An - Hiệp An - Đức trọng
+Quy Nhon,b056_ow_naictttmdvqtbcd3,viettel,Khu Đô Thị Xanh Vũng Chua - Ghềnh Ráng - tp. Quy Nhơn
+Quy Nhon,b056_ow_naictttmdvqtbcd4,viettel,Khu Đô Thị Xanh Vũng Chua - Ghềnh Ráng - tp. Quy Nhơn
+Hue,t054_ow_naictttmdvqtbcd1,viettel,174 Bà Triệu - Phú Nhuận - Thành phố Huế
+Hue,t054_ow_naictttmdvqtbcd3,viettel,174 Bà Triệu - Phú Nhuận - Thành phố Huế
+Nha Trang,k058_ow_naictttmdvqtbcd2 ,viettel,Lô 4 đường 19/5 - Vĩnh Hiệp - Thành phố Nha Trang
+Nha Trang,k058_ow_naictttmdvqtbcd4,viettel,Lô 4 đường 19/5 - Vĩnh Hiệp - Thành phố Nha Trang
+Vinh,n038_ow_naictttmdvqtbcd2,viettel,Quang Trung - Thành phố Vinh
+Vinh,n038_ow_naictttmdvqtbcd3,viettel,Quang Trung - Thành phố Vinh
+Dong Nai,d061_ow_naictttmdvqtbcd4 ,viettel,BIG C Đồng Nai- QL51 - Long Bình Tân - Thành phố Biên Hòa
+Dong Nai,d061_ow_naictttmdvqtbcd5,viettel,BIG C Đồng Nai- QL51 - Long Bình Tân - Thành phố Biên Hòa
+Tan Hiep,d061_ow_naictttmdvqtbcd6 ,viettel,BIG C Tân Hiệp- Đường Đồng Khởi - Tân Hiệp - Thành phố Biên Hòa
+Tan Hiep,d061_ow_naictttmdvqtbcd7,viettel,BIG C Tân Hiệp- Đường Đồng Khởi - Tân Hiệp - Thành phố Biên Hòa
+Binh Duong,b650_ow_naictttmdvqtbcd10 ,viettel,Đại lộ Bình Dương - Hiệp Thành - TP. Thủ Dầu Một
+Binh Duong,b650_ow_naictttmdvqtbcd11 ,viettel,Đại lộ Bình Dương - Hiệp Thành - TP. Thủ Dầu Một
+Di An,b650_ow_naictttmdvqtbcd12,viettel,Quốc lộ 1K - Đông Hoà - Dĩ An
+Di An,b650_ow_naictttmdvqtbcd13,viettel,Quốc lộ 1K - Đông Hoà - Dĩ An
+Can Tho,c710_ow_naictttmdvqtbcd4 ,viettel,Lô Số 1 - KDC Hưng Phú 1 - Cái Răng
+Can Tho,c710_ow_naictttmdvqtbcd5,viettel,Lô Số 1 - KDC Hưng Phú 1 - Cái Răng
+My Tho,t073_ow_naictttmdvqtbcd5 ,viettel,BIG C Mỹ Tho
+My Tho,t073_ow_naictttmdvqtbcd3,viettel,BIG C Mỹ Tho
+Da Nang,d511_ow_naictttmdvqtbcd4,viettel,255-257 Hùng Vương - Vĩnh Trung - Thanh Khê
+Da Nang,d511_ow_naictttmdvqtbcd5,viettel,255-257 Hùng Vương - Vĩnh Trung - Thanh Khê
+SSC,t008_gow_naictttmdvqtbcd,viettel,163 - Phan Đăng Lưu - quận Phú Nhuận
+SSC,t008_ow_naictttmdvqtbcd30,viettel,163 - Phan Đăng Lưu - quận Phú Nhuận
+An Lac,t008_ow_naictttmdvqtbcd31,viettel,QL1A - Bình Trị Đông B - Bình Tân
+An Lac,t008_ow_naictttmdvqtbcd32,viettel,QL1A - Bình Trị Đông B - Bình Tân
+Truong Chinh,t008_ow_naictttmdvqtbcd33,viettel,1/1 Trường Chinh - Phường 15 - Tân Phú
+Truong Chinh,t008_ow_naictttmdvqtbcd34,viettel,1/1 Trường Chinh - Phường 15 - Tân Phú
+Mien Dong,t008_gow_naictttmdvqtbcd1,viettel,268 Tô Hiến Thành - Cư xá Bắc Hải - Quận 10,
+Mien Dong,t008_ow_naictttmdvqtbcd35,viettel,268 Tô Hiến Thành - Cư xá Bắc Hải - Quận 10,
+Go Vap,t008_ow_naictttmdvqtbcd36,viettel,792 Nguyễn Kiệm - Phường 3 - Gò Vấp
+Go Vap,t008_ow_naictttmdvqtbcd37,viettel,792 Nguyễn Kiệm - Phường 3 - Gò Vấp
+Phu Thanh,t008_gow_naictttmdvqtbcd2,viettel,212 Thoại Ngọc Hầu - Phú Thạnh - Tân Phú
+Phu Thanh,t008_ow_naictttmdvqtbcd38,viettel,212 Thoại Ngọc Hầu - Phú Thạnh - Tân Phú
+An Phu,t008_ow_naictttmdvqtbcd40,viettel,Trung Tâm Thương Mại Cantavil Premier - số 1 Song Hành - Khu phố 5 - Quận 2
+An Phu,t008_ow_naictttmdvqtbcd39,viettel,Trung Tâm Thương Mại Cantavil Premier - số 1 Song Hành - Khu phố 5 - Quận 2
+Nguyen Thi Thap,t008_ow_naictttmdvqtbcd51,viettel,99 Nguyễn Thị Thập - Tân Phú - Quận 7
+Nguyen Thi Thap,t008_ow_naictttmdvqtbcd52,viettel,99 Nguyễn Thị Thập - Tân Phú - Quận 7
+Thao Dien,t008_ow_naictttmdvqtbcd43,viettel,12 Quốc Hương - Thảo Điền - Quận 2
+Thao Dien,t008_ow_naictttmdvqtbcd44,viettel,12 Quốc Hương - Thảo Điền - Quận 2
+Au Co,t008_ow_naictttmdvqtbcd45,viettel,658 Âu Cơ - Tân Thạnh - Tân Phú
+Au Co,t008_ow_naictttmdvqtbcd46,viettel,658 Âu Cơ - Tân Thạnh - Tân Phú
+Quang Ngai,q055_ow_naictttmdvqtbcd ,viettel,Lý Thường Kiệt - Nghĩa Chánh Nam - Quảng Ngãi
+Quang Ngai,q055_ow_naictttmdvqtbcd1,viettel,Lý Thường Kiệt - Nghĩa Chánh Nam - Quảng Ngãi
+Tra Vinh,t074_ow_naictttmdvqtbcd1,viettel,Võ Nguyên Giáp - P7 - Tp. Trà Vinh - tỉnh Trà Vinh
+Tra Vinh,t074_ow_naictttmdvqtbcd2 ,viettel,Võ Nguyên Giáp - P7 - Tp. Trà Vinh - tỉnh Trà Vinh
+Buon Me Thuoc,d500_gow_naictttmdvqtbcd1,viettel,Thành Nhất - Thành phố Buôn Ma Thuột - Đắk Lắk
+Buon Me Thuoc,d500_gow_naictttmdvqtbcd2,viettel,Thành Nhất - Thành phố Buôn Ma Thuột - Đắk Lắk
+FIS Service,t008_gow_naictttmdvqtbcd51,viettel,Phan Xích Long
+Tam Ky,q510_ow_naictttmdvqtbcd1,viettel,01 Phan Châu Trinh - Phường Phước Hòa - Tam Kỳ - Quảng Nam
+Nguyen Xien,h004_gow_naictttmdvqtbcd11,viettel,286 Đường Nguyễn Xiển - Tân Triều - Quận Thanh Trì - Hà Nội
+Ben Tre,b075_ow_naictttmdvqtbcd,viettel,Ấp1 - đường Võ Nguyên Giáp (Quốc lộ 60) - Xã Sơn Đông - Thành phố Bến Tre - Tỉnh Bến Tre - Việt Nam
+Ben Tre,b075_ow_naictttmdvqtbcd1,viettel,Ấp1 - đường Võ Nguyên Giáp (Quốc lộ 60) - Xã Sơn Đông - Thành phố Bến Tre - Tỉnh Bến Tre - Việt Nam
+Thai Nguyen,t280_gow_naictttmdvqtbcd3,viettel,Việt Bắc - Tân Lập - Thành phố Thái Nguyên - Thái Nguyên
+Thai Nguyen,t280_gow_naictttmdvqtbcd2,viettel,Việt Bắc - Tân Lập - Thành phố Thái Nguyên - Thái Nguyên

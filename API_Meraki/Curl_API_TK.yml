@@ -1,0 +1,103 @@
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2LD-ZZYC-TTJ4 \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2LD-ZZYC-TTJ4",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTNGF0X-AP204"
+  }'
+
+
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2KD-PJ7L-8HQF \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2KD-PJ7L-8HQF",
+  "mac": "ac:17:c8:03:5a:b2",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTKYF01-AP153"
+}'
+
+
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2KD-MUSD-UNCA \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2KD-MUSD-UNCA",
+  "mac": "ac:17:c8:03:5a:c5",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTKYF01-AP152"
+}'
+
+
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2KD-5UXJ-VNH4 \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2KD-5UXJ-VNH4",
+  "mac": "ac:17:c8:03:5a:c0",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTKYF01-AP155"
+}'
+
+
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2KD-JSLU-S7KZ \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2KD-JSLU-S7KZ",
+  "mac": "ac:17:c8:03:5a:be",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTKYF01-AP150"
+}'
+
+
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2KD-MEZP-R62A \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2KD-MEZP-R62A",
+  "mac": "ac:17:c8:03:5a:33",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTKYF01-AP154"
+}'
+
+
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2KD-YS7W-4WTW \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2KD-YS7W-4WTW",
+  "mac": "ac:17:c8:03:5f:d5",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTKYF01-AP151"
+}'
+
+
+curl -L --request PUT \
+--url https://api.meraki.com/api/v1/devices/Q2KD-V6AE-XX55 \
+--header 'Content-Type: application/json' \
+--header 'Accept: application/json' \
+--header 'X-Cisco-Meraki-API-Key: 124ba22065f49b42515c3fb34931f29c900a70f2' \
+--data '{
+  "serial": "Q2KD-V6AE-XX55",
+  "mac": "ac:17:c8:03:5a:c8",
+  "tags": ["trungnl-change-name"],
+  "name": "N-VNCFTKYF01-AP157"
+}'
+
+

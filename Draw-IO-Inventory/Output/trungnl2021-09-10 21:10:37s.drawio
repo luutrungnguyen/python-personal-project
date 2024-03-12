@@ -1,0 +1,55 @@
+<mxfile compressed="false" host="Electron" modified="2021-09-10T14:15:02.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.1.3 Chrome/89.0.4389.128 Electron/12.1.0 Safari/537.36" version="15.1.3" etag="35KZOvSrV3ZQYPkE2Yl7" type="device">
+  <diagram id="Page-2" name="Page-2">
+    <mxGraphModel dx="852" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="SW1" id="SW1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="279" y="130" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R1" id="R1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="20" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Gig0/1--Gi2" id="8f3ac22f9a29656a9e02886c71a5c43e">
+          <mxCell style="endArrow=none;" parent="1" source="SW1" target="R1" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R2" id="R2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="20" y="260" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Gig0/1--Gi2" id="896b0d23684cf92404fde3568788d35f">
+          <mxCell style="endArrow=none;" parent="1" source="R2" target="SW1" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R3" id="R3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="550" y="90" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Gig0/1--Gi2" id="2a8fe702993c5cb13f7019f67c9665ed">
+          <mxCell style="endArrow=none;" parent="1" source="R3" target="SW1" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R4" id="R4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="570" y="310" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Gig0/1--Gi2" id="3ed3391a4275a4545fecf4e95f359c29">
+          <mxCell style="endArrow=none;" parent="1" source="SW1" target="R4" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

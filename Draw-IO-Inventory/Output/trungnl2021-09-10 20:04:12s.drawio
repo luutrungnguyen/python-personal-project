@@ -1,0 +1,21 @@
+<mxfile compressed="false" type="device">
+    <diagram id="Page-1" name="Page-1">
+      <mxGraphModel arrows="1" connect="1" dx="1360" dy="864" fold="1" grid="1" gridSize="10" guides="1" math="0" page="1" pageHeight="1169" pageScale="1" pageWidth="827" shadow="1" tooltips="1">
+        <root>
+          <mxCell id="0" />   
+          <mxCell id="1" parent="0" />
+        <object id="HQ" label="HQ">
+      <mxCell parent="1" style="shape=mxgraph.cisco.buildings.generic_building;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1">
+          <mxGeometry as="geometry" height="136" width="90" x="688" y="0" />
+      </mxCell>
+    </object><object id="R1" label="R1">
+      <mxCell parent="1" style="./styles/router.txt" vertex="1">
+          <mxGeometry as="geometry" height="60" width="120" x="248" y="424" />
+      </mxCell>
+    </object><object id="5e502dfc2ada126f127e1b6b590aee3e" label="DF">
+      <mxCell edge="1" parent="1" source="R1" style="endArrow=classic;fillColor=#f8cecc;strokeColor=#FF3399;dashed=1;edgeStyle=entityRelationEdgeStyle;startArrow=diamondThin;startFill=1;endFill=0;strokeWidth=5;" target="HQ">
+          <mxGeometry as="geometry" relative="1" />
+      </mxCell>
+    </object></root>
+      </mxGraphModel>
+    </diagram></mxfile>

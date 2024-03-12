@@ -1,0 +1,50 @@
+<mxfile compressed="false" host="Electron" modified="2021-09-10T13:31:49.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.1.3 Chrome/89.0.4389.128 Electron/12.1.0 Safari/537.36" version="15.1.3" etag="Q1pUUlxssv55TtpSt4Aq" type="device">
+  <diagram id="Page-1" name="Page-1">
+    <mxGraphModel dx="852" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="R1" id="R1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="499" y="300" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R2" id="R2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="499" y="70" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R3" id="R3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#C0C0C0;fontColor=#C0C0C0" parent="1" vertex="1">
+            <mxGeometry x="100" y="70" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="587442c5a54447c93790c2cd8d1e9a85">
+          <mxCell style="endArrow=none;" parent="1" source="R1" target="R2" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="73485fc864afe7d8cb8c6e2dfa2c1305">
+          <mxCell style="endArrow=none;strokeColor=#C0C0C0;fontColor=#C0C0C0" parent="1" source="R2" target="R3" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="72baf1d1f5eedf2c082659c6397859a5">
+          <mxCell style="endArrow=none;strokeColor=#C0C0C0;fontColor=#C0C0C0" parent="1" source="R3" target="R1" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R4" id="R4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#00FF00;fontColor=#00FF00" parent="1" vertex="1">
+            <mxGeometry x="100" y="310" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="fe73988b7f1a2c985baac7a5481158cc">
+          <mxCell style="endArrow=none;strokeColor=#00FF00;fontColor=#00FF00" parent="1" source="R2" target="R4" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,741 @@
+<mxfile compressed="false" host="Electron" modified="2021-09-12T12:01:34.437Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.1.3 Chrome/89.0.4389.128 Electron/12.1.0 Safari/537.36" etag="ojGA0TRaajj_iwNDjq1e" version="15.1.3" type="device">
+  <diagram id="Page-1" name="Page-1">
+    <mxGraphModel dx="17040" dy="9880" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="SSC-Core" id="SSC-Core">
+          <mxCell style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1721" y="1106" width="130" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="B2S-BgC-RTR-001" id="B2S-BgC-RTR-001">
+          <mxCell style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2571" y="636" width="120" height="50" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-M-SW4" id="SSC-M-SW4">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="921" y="2046" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-WLC-5508" id="SSC-WLC-5508">
+          <mxCell style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=dual_mode_access_point;fillColor=#FAFAFA;strokeColor=#005073;" parent="1" vertex="1">
+            <mxGeometry x="1931" y="626" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-M-SW3" id="SSC-M-SW3">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="841" y="1956" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-R2" id="SSC-R2">
+          <mxCell style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2861" y="531" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-R1" id="SSC-R1">
+          <mxCell style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2711" y="526" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-M-SW01" id="SSC-M-SW01">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="671" y="1956" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-M-SW02" id="SSC-M-SW02">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="751" y="2036" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="PDC-N9K5-01" id="PDC-N9K5-01">
+          <mxCell style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3701" y="666" width="120" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="CTY-CSW-001" id="CTY-CSW-001">
+          <mxCell style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1331" y="601" width="120" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-Server-SW" id="SSC-Server-SW">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2221" y="636" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SDC-N9K5-01" id="SDC-N9K5-01">
+          <mxCell style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3471" y="666" width="120" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW12" id="SSC-FL4-SW12">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3433" y="1516" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW11" id="SSC-FL4-SW11">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3323" y="1636" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW10" id="SSC-FL4-SW10">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3193" y="1526" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL3-SW1" id="SSC-FL3-SW1">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1631" y="1726" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW6" id="SSC-FL4-SW6">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2813" y="1626" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW7" id="SSC-FL4-SW7">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2943" y="1526" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-nternet-SW1" id="SSC-nternet-SW1">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2083" y="546" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL2-SW2" id="SSC-FL2-SW2">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1061" y="1846" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL2-SW3" id="SSC-FL2-SW3">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1151" y="1946" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL3-SW2" id="SSC-FL3-SW2">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1731" y="1846" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW5" id="SSC-FL4-SW5">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2703" y="1526" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="HO-FL4-SW" id="HO-FL4-SW">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3563" y="1636" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL2-SW4" id="SSC-FL2-SW4">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1251" y="1846" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL3-SW5" id="SSC-FL3-SW5">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1921" y="1856" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW2" id="SSC-FL4-SW2">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2313" y="1646" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL2-SW5" id="SSC-FL2-SW5">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1361" y="1956" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL5-SW2" id="SSC-FL5-SW2">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3981" y="1466" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL3-SW4" id="SSC-FL3-SW4">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1841" y="1726" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW3" id="SSC-FL4-SW3">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2433" y="1526" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL5-SW1" id="SSC-FL5-SW1">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3821" y="1466" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL3-SW7" id="SSC-FL3-SW7">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2011" y="1726" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW1" id="SSC-FL4-SW1">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2203" y="1526" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL2-SW8" id="SSC-FL2-SW8">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="1461" y="1846" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW8" id="SSC-FL4-SW8">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="3063" y="1626" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="HO-SW3560X" id="HO-SW3560X">
+          <mxCell style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2391" y="506" width="120" height="110" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/26 to Gig 0/0/0" id="9558893067a04ca83506aca05d928a2f">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="B2S-BgC-RTR-001" edge="1">
+            <mxGeometry x="0.728" y="10" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/4/1  to Gig 1/0/28" id="0512871246c58e966f4f30128008f69f">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-M-SW4" edge="1">
+            <mxGeometry x="0.6567" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1001" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/36 to Gig 0/0/1" id="12964d52f974ea1b20976a9bb978f8a9">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+            <mxGeometry x="0.0169" y="-10" relative="1" as="geometry">
+              <mxPoint x="1863" y="1166.0000000000002" as="sourcePoint" />
+              <mxPoint x="1973" y="686" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/36 to Gig 0/0/2" id="c6ce09e379bd44fb7f2b707a8abcf657">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" edge="1">
+            <mxGeometry x="0.1525" y="-30" relative="1" as="geometry">
+              <mxPoint x="1891" y="1166.0000000000002" as="sourcePoint" />
+              <mxPoint x="2001" y="686" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/2/3  to Gig 1/0/51" id="c964e8a069e1f9eb63a82462203f4ca5">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-M-SW3" edge="1">
+            <mxGeometry x="0.6716" y="-10" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/3  to Gig 1/0/52" id="29018a06244c923d05dc8d1a26d086eb">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-M-SW3" edge="1">
+            <mxGeometry x="0.7121" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="931" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/47 to Gig 0/0" id="e91ea3b3b22ccdc772fbd329711d2b66">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-R2" edge="1">
+            <mxGeometry x="0.8116" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/47 to Gig 0/0" id="8c9beac135d4eba436fa338d6c4371f9">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-R1" edge="1">
+            <mxGeometry x="0.7886" y="10" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/2/1  to Gig 1/0/51" id="94d747c455bc1bde4aaaf3eb88e36956">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-M-SW01" edge="1">
+            <mxGeometry x="0.5629" y="-30" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/1  to Gig 1/0/52" id="bee001c83d721faad7ec63b43355cb17">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-M-SW01" edge="1">
+            <mxGeometry x="0.5811" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="771" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/2  to Gig 1/0/52" id="aed67518e2e2283cc3b2d5f3460e12fc">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-M-SW02" edge="1">
+            <mxGeometry x="0.5232" y="-10" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/2/2  to Gig 1/0/51" id="7797592c678b17137c86fc0ad1f73e45">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-M-SW02" edge="1">
+            <mxGeometry x="0.5541" y="10" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="851" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Ten 1/1/4  to Eth 3/44" id="fa0cee7782326860be08f596dc2bf940">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="PDC-N9K5-01" edge="1">
+            <mxGeometry x="0.8634" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/27 to Gig 2/0/2" id="62de744dfc9e0fa0cf41b6e12f649a13">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="CTY-CSW-001" edge="1">
+            <mxGeometry x="0.441" y="-20" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/27 to Gig 1/0/2" id="9f0ce803368b5011868ed660750763f5">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="CTY-CSW-001" edge="1">
+            <mxGeometry x="0.375" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1381" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/17 to Gig 1/0/24" id="2bc895ab28a41b00083dee3b97ec8344">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-Server-SW" edge="1">
+            <mxGeometry x="0.6484" y="-10" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2291" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/17 to Gig 1/0/23" id="42ad4fe7db4e7bd161c7764ec9cbca7a">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-Server-SW" edge="1">
+            <mxGeometry x="0.6" y="10" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Ten 1/1/3  to Eth 3/17" id="6ec20cf4fa68f0c194d7202c65f88050">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SDC-N9K5-01" edge="1">
+            <mxGeometry x="0.8357" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="3541" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/11 to Gig 0/1" id="a820ce1bcac0e540d8628c04c22cdd97">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW12" edge="1">
+            <mxGeometry x="0.8996" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/10 to Gig 0/1" id="0ce245b2d46cb5cc3cc2c58a530adf7e">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW11" edge="1">
+            <mxGeometry x="0.8002" y="8" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/9  to Gig 0/1" id="dde1baf717b6b4933a94460d703429c5">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW10" edge="1">
+            <mxGeometry x="0.9205" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/4/5  to Gig 1/0/51" id="f741eb88972530359002131e7fb1780d">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL3-SW1" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1701" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/43 to Gig 1/0/48" id="3c23cde9b5f67956abda6314ea2edb9b">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW6" edge="1">
+            <mxGeometry x="0.6761" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/43 to Gig 1/0/47" id="763f0d72f47a8dad17459489f5a5b302">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW6" edge="1">
+            <mxGeometry x="0.7086" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2901" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/44 to Gig 1/0/48" id="83500fe92d618595b3717b983ed25942">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW7" edge="1">
+            <mxGeometry x="0.8677" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/44 to Gig 1/0/47" id="b845622ebb50d1809a4201e838651c81">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW7" edge="1">
+            <mxGeometry x="0.8954" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="3021" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/28 to Gig 1/0/21" id="21a788736b4bad2dc8424a5bb9bb4ddc">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" target="SSC-nternet-SW1" edge="1">
+            <mxGeometry x="0.3261" y="-35" relative="1" as="geometry">
+              <mxPoint x="1874" y="1166.0000000000002" as="sourcePoint" />
+              <mxPoint x="2136" y="686" as="targetPoint" />
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/5  to Gig 1/0/52" id="31883a148f110b06e562a6d68f3d35d9">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW2" edge="1">
+            <mxGeometry x="0.2407" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1161" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/2/5  to Gig 1/0/51" id="d1ad8056dc7c88a1423833f9d6b50efb">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW2" edge="1">
+            <mxGeometry x="0.2072" y="-10" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1131" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/21 to Gig 1/0/12" id="7e697f025106f494e9d5f17f1a49045d">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-nternet-SW1" edge="1">
+            <mxGeometry x="0.2874" y="40" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2161" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/41 to Gig 1/0/48" id="ef034c445dd25c23cddd46f4dc04f5b3">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW4" edge="1">
+            <mxGeometry x="0.536" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2641" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/41 to Gig 1/0/47" id="55e7a5b77aa11a5e749b7f9a4a6b2213">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW4" edge="1">
+            <mxGeometry x="0.4959" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2621" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/2/6  to Gig 1/0/51" id="80cbfc534bcfee2f7a1278e571f51241">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW3" edge="1">
+            <mxGeometry x="0.1171" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/6  to Gig 1/0/52" id="6e51a8bcf8f72f5e509683ea666a3dd4">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW3" edge="1">
+            <mxGeometry x="0.156" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1231" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/4/4  to Gig 1/0/51" id="3686c80a93c1fdd8c9fe2ce4d6555c03">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL3-SW2" edge="1">
+            <mxGeometry x="-0.2258" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1801" y="1556" />
+                <mxPoint x="1801" y="1556" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/42 to Gig 1/0/48" id="f11cb8946a2e5464482361fce547d49e">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW5" edge="1">
+            <mxGeometry x="0.75" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2771" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/32 to Gig 0/2" id="a05cfdbda03aa6fe53627ccfee8ca45d">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;startArrow=none;" parent="1" source="SSC-Core" target="HO-FL4-SW" edge="1">
+            <mxGeometry x="0.7859" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/7  to Gig 1/0/52" id="6c243dfa7142933e0a45ed1bfcff5f22">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW4" edge="1">
+            <mxGeometry x="0.2527" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/2/7  to Gig 1/0/51" id="96c3835e597a58a242656f45bd43b7ef">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW4" edge="1">
+            <mxGeometry x="0.3034" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1331" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/4/4  to Gig 0/2" id="c6ce79bc4a63ba5f5cd0d6381e4cce66">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL3-SW5" edge="1">
+            <mxGeometry x="0.2156" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/39 to Gig 1/0/47" id="617c0dd8f900236cd66376c965a514b5">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW2" edge="1">
+            <mxGeometry x="0.2216" y="-2" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/39 to Gig 1/0/48" id="c19cd45f7300cfa40285662a06da7974">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW2" edge="1">
+            <mxGeometry x="0.2745" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2391" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/2/8  to Gig 1/0/51" id="8e673a20707606f47266b52d055cd2b6">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW5" edge="1">
+            <mxGeometry x="0.1429" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/2/8  to Gig 1/0/52" id="9001d558dc50307a47e46c13755ef0ca">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW5" edge="1">
+            <mxGeometry x="0.191" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1441" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/4/6  to Gig 1/0/52" id="644dcab3f770425a234716b1e9737462">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL5-SW2" edge="1">
+            <mxGeometry x="0.8876" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/4/6  to Gig 1/0/51" id="b26aa86ca873be6c985f974d60f94cd7">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL5-SW2" edge="1">
+            <mxGeometry x="0.9048" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="4071" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/4/2  to Gig 1/0/50" id="23e3d325c493ec27132d05adf40fc0b2">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL3-SW4" edge="1">
+            <mxGeometry x="0.2682" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1911" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/40 to Gig 1/0/48" id="dd17879182ce73e813ff6914fb7dd0a9">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW3" edge="1">
+            <mxGeometry x="0.5446" y="-8" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2501" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/4/7  to Gig 1/0/52" id="9c2b2c8c7f3ce29ef477341bf0104aad">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL5-SW1" edge="1">
+            <mxGeometry x="0.8547" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="3891" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/4/7  to Gig 1/0/51" id="b55880d215660c024e3a90727ad5a668">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL5-SW1" edge="1">
+            <mxGeometry x="0.8268" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="3861" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/4/5  to Gig 1/0/52" id="fe6f8e9d37d5c4a485e5c30c186422ff">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL3-SW7" edge="1">
+            <mxGeometry x="0.5897" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/38 to Gig 1/0/48" id="62339b343e35e01d9c70cc7d3b04b506">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW1" edge="1">
+            <mxGeometry x="0.1969" y="-12" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/38 to Gig 1/0/47" id="5b55a7c8d950d6d342067c342961dc2b">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW1" edge="1">
+            <mxGeometry x="0.275" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="2291" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/4/3  to Gig 1/0/52" id="4f59385bc42dff177a02f0c09da494a7">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW8" edge="1">
+            <mxGeometry x="0.3714" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/4/3  to Gig 1/0/51" id="1c00bfb689c6b5a1230726ecc66c046d">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL2-SW8" edge="1">
+            <mxGeometry x="0.4412" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="1541" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/26 to Gig 1/0/23" id="899322eeba4f262c7539ddeda7e892c2">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW8" edge="1">
+            <mxGeometry x="0.8152" relative="1" as="geometry">
+              <mxPoint y="1" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 1/3/22 to Gig 1/0/24" id="58a5f0361dae669a0d5481279cf0c61a">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW8" edge="1">
+            <mxGeometry x="0.8409" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="3151" y="1166" />
+              </Array>
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="Gg 2/3/24 to Gig 0/22" id="8fc6981d8f74036aee82b0c2f53bdd54">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="HO-SW3560X" edge="1">
+            <mxGeometry x="0.6952" relative="1" as="geometry">
+              <mxPoint as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="SSC-FL4-SW4" id="SSC-FL4-SW4">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="2573" y="1626" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-2" value="" style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="SSC-Core" target="SSC-FL4-SW4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1859" y="1163" as="sourcePoint" />
+            <mxPoint x="2631" y="1816" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2661" y="1166" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-7" value="&lt;span style=&quot;font-size: 70px&quot;&gt;Floor M&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="731" y="2206" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-9" value="&lt;span style=&quot;font-size: 70px&quot;&gt;Floor 2&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1211" y="2126" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-10" value="&lt;span style=&quot;font-size: 70px&quot;&gt;Floor 3&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1731" y="2036" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-11" value="&lt;span style=&quot;font-size: 70px&quot;&gt;Floor 4&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2823" y="1816" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-12" value="&lt;span style=&quot;font-size: 70px&quot;&gt;Floor 5&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3821" y="1636" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-13" value="&lt;span style=&quot;font-size: 70px&quot;&gt;DATACENTER&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="3541" y="546" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-14" value="&lt;span style=&quot;font-size: 70px&quot;&gt;SERVER ROOM&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="2141" y="406" width="630" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-15" value="&lt;span style=&quot;font-size: 70px&quot;&gt;NGUYEN KIM&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1131" y="501" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PBUHXTQK3iMy6MPZOTZ6-16" value="&lt;font style=&quot;font-size: 50px&quot;&gt;SSC Core&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1636" y="1056" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

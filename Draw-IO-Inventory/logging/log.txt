@@ -1,0 +1,36 @@
+________________Logging Time: 2021-09-12 17:34:01
+hostname TDien-R1
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+TDien-Office-SW1.bigc-vietnam.com
+                 Gig 0/0/1         171              S I   WS-C2960+ Fas 0/43
+
+Total cdp entries displayed : 1
+
+________________Logging Time: 2021-09-12 17:35:56
+hostname TDien-R1
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+TDien-Office-SW1.bigc-vietnam.com
+                 Gig 0/0/1         176              S I   WS-C2960+ Fas 0/43
+
+Total cdp entries displayed : 1
+
+________________Logging Time: 2021-09-13 11:29:28
+hostname TDien-R1
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+TDien-Office-SW1.bigc-vietnam.com
+                 Gig 0/0/1         150              S I   WS-C2960+ Fas 0/43
+
+Total cdp entries displayed : 1
+

@@ -1,0 +1,15 @@
+{
+  "lat": 9.92174105084579,
+  "lng": 106.326353391509,
+  "address": "414 V\u00f5 Nguy\u00ean Gi\u00e1pPh\u01b0\u1eddng 7, Tr\u00e0 Vinh",
+  "serial": "Q2LD-ZTRJ-K3NN",
+  "mac": "98:18:88:40:a8:95",
+  "lanIp": "10.182.191.171",
+  "url": "https://n215.meraki.com/GO_TRAVINH-wirel/n/jtehlcxd/manage/nodes/new_list/167231132575893",
+  "networkId": "L_683984193406904223",
+  "tags": [],
+  "name": "N-VNCFTVIF0X-AP171",
+  "model": "MR52",
+  "firmware": "wireless-27-7-1",
+  "floorPlanId": "g_683984193406898236"
+}

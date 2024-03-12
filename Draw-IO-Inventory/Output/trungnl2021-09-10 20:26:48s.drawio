@@ -1,0 +1,55 @@
+<mxfile compressed="false" host="Electron" modified="2021-09-10T13:27:18.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.1.3 Chrome/89.0.4389.128 Electron/12.1.0 Safari/537.36" version="15.1.3" etag="pvhgfHT_Hkdmx9frrMKu" type="device">
+  <diagram id="Page-1" name="Page-1">
+    <mxGraphModel dx="852" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="R12" id="a">
+          <mxCell style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="540" y="320" width="78" height="53" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R2" id="b">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="550" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R3" id="c">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="294" y="-20" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="SW22" id="d">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="850" y="316.5" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R1" id="e">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+            <mxGeometry x="850" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="DF" id="d303130c30b5b0888aefbcfd9e9dc1e6">
+          <mxCell style="endArrow=none;" parent="1" source="a" target="b" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Copper" id="bdcbf319f8cc42532f48c909435dd4c1">
+          <mxCell style="endArrow=none;" parent="1" source="b" target="c" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Copper" id="f092681ee4bb4335d939309480a0146a">
+          <mxCell style="endArrow=none;" parent="1" source="b" target="e" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="FW" id="6ba49a0aa9fc16fd99ab07b41afa4df5">
+          <mxCell style="endArrow=none;" parent="1" source="d" target="e" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

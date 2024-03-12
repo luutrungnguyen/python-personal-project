@@ -1,0 +1,59 @@
+<mxfile compressed="false" host="Electron" modified="2021-09-10T14:26:40.555Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.1.3 Chrome/89.0.4389.128 Electron/12.1.0 Safari/537.36" version="15.1.3" etag="o50O1up8t4q87tb2n9Zr" type="device">
+  <diagram id="Page-1" name="Page-1">
+    <mxGraphModel dx="1420" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="R1" id="R1">
+          <mxCell style="shape=mxgraph.cisco.routers.atm_router;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="50" y="70" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="R2" id="R2">
+          <mxCell style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="640" y="60" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="CSW" id="CSW">
+          <mxCell style="shape=mxgraph.cisco.switches.layer_3_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="330" y="390" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="ASW" id="ASW">
+          <mxCell style="shape=mxgraph.cisco.switches.workgroup_switch;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" parent="1" vertex="1">
+            <mxGeometry x="330" y="670" width="120" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="connect to core" id="335ab81fa522a3763782763996dbdbe9">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="R1" target="CSW" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="110" y="420" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="connect to core" id="d3e29b9412f4e14f63a8a1378459caee">
+          <mxCell style="endArrow=none;html=1;dashed=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="R2" target="CSW" edge="1">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="700" y="420" />
+              </Array>
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object label="connect to asw" id="fc0f2841b29a06a9b136be5a1659becd">
+          <mxCell style="./links/default.txt" parent="1" source="CSW" target="ASW" edge="1">
+            <mxGeometry relative="1" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="xUL_-jiV6fMNOPOrhS2x-1" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
